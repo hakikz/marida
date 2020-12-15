@@ -1,0 +1,48 @@
+@font-face {
+    font-family: avenirlite;
+    src: url('../fonts/Avenir-Light.ttf');
+}
+@font-face {
+    font-family: cyrenereg;
+    src: url('../fonts/Cyrene-Regular.ttf');
+}
+@font-face {
+    font-family: futuralite;
+    src: url('../fonts/futura-pt-light.ttf');
+}
+@font-face {
+    font-family: futurabook;
+    src: url('../fonts/Futura-PT-Book.otf');
+}
+@font-face {
+    font-family: helveticaneue;
+    src: url('../fonts/HelveticaNeue.ttf');
+}
+@font-face {
+    font-family: avenirbook;
+    src: url('../fonts/avenir-book.ttf');
+}
+@font-face {
+    font-family: avenirmidium;
+    src: url('../fonts/Avenir-Medium.ttf');
+}
+
+$nun: 'Nunito', sans-serif;
+$raj: 'Rajdhani', sans-serif;
+$mont: 'Montserrat', sans-serif;
+
+
+$avlite: 'avenirlite';
+$avbook: 'avenirbook';
+$avmid: 'avenirmidium';
+$cyreg: 'cyrenereg';
+$fulite: 'futuralite';
+$fubook: 'futurabook';
+$helne: 'helveticaneue';
+
+$mid: 500;
+$sbold: 600;
+$bold: 700;
+$dbold: 900;
+
+$fs: 15px;

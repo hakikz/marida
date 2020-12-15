@@ -1,0 +1,66 @@
+.standard{
+    padding: 80px 0 40px;
+    .text-wrap{
+        position: relative;
+        height: 100%;
+        h3{
+            font-size: $fs + 15px;
+            font-family: $cyreg;
+            color: $col-foot1;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: $fs + 1px;
+        }
+
+        ul{
+            list-style: none;
+            padding-left: 15px;
+            li{
+                &::before {
+                    content: "\2022";  
+                    color: $col-btn; 
+                    font-weight: bold;
+                    display: inline-block; 
+                    width: 1em; 
+                    margin-left: -1em; 
+                }
+            }
+        }
+
+        .btn{
+            margin-top: 300px;
+        }
+    }
+
+    .img-wrap{
+        figcaption{
+            text-align: right;
+            color: $col-btn;
+            padding-top: 10px;
+        }
+    }
+
+    // Standard Continue area
+    &.cont{
+        background-color: $col-sec-even;
+        .text-wrap{
+            padding-left: 20px;
+            position: relative;
+            height: 100%;
+            h3{
+                color: $col-foot2;
+            }
+
+            .btn{
+                margin-top: 50px;
+            }
+        }
+
+        .img-wrap{
+            figcaption{
+                color: $col-foot2;
+            }
+        }
+    }
+}

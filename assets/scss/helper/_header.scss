@@ -1,0 +1,25 @@
+.header{
+    .navbar-brand{
+        font-family: $nun;
+        font-weight: $bold;
+        font-size: $fs + 30px;
+        color: $col-green;
+    }
+    nav{
+        .navbar-nav{
+            font-family: $nun;
+            font-weight: $bold;
+            font-size: $fs + 30px;
+            li{
+                a{
+                    color: $col-green;
+                    text-decoration: none;
+
+                    &:hover{
+                        color: $col-black;
+                    }
+                }
+            }
+        }
+    }
+}

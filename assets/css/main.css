@@ -1,0 +1,380 @@
+@font-face {
+  font-family: avenirlite;
+  src: url("../fonts/Avenir-Light.ttf");
+}
+@font-face {
+  font-family: cyrenereg;
+  src: url("../fonts/Cyrene-Regular.ttf");
+}
+@font-face {
+  font-family: futuralite;
+  src: url("../fonts/futura-pt-light.ttf");
+}
+@font-face {
+  font-family: futurabook;
+  src: url("../fonts/Futura-PT-Book.otf");
+}
+@font-face {
+  font-family: helveticaneue;
+  src: url("../fonts/HelveticaNeue.ttf");
+}
+@font-face {
+  font-family: avenirbook;
+  src: url("../fonts/avenir-book.ttf");
+}
+@font-face {
+  font-family: avenirmidium;
+  src: url("../fonts/Avenir-Medium.ttf");
+}
+body {
+  font-family: "avenirlite";
+  overflow-x: hidden;
+}
+
+.break {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  background-color: #34302b;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.45;
+}
+
+.cta-wrap {
+  text-align: center;
+}
+
+.btn-doi {
+  background-color: #c1a58f;
+  color: #fff;
+  border-radius: 0;
+  padding: 7px 30px;
+}
+.btn-doi.white {
+  background-color: #fff;
+  color: #34302b;
+}
+
+.scrollToTop {
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 75px;
+  right: 40px;
+  display: none;
+}
+.scrollToTop:hover {
+  text-decoration: none;
+}
+
+.csoon {
+  position: relative;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 90vh;
+}
+.csoon .content-wrap {
+  padding: 260px 0 30px;
+}
+.csoon .content-wrap .logo {
+  max-width: 220px;
+}
+.csoon .content-wrap h1 {
+  font-family: "cyrenereg";
+  color: #fff;
+  font-size: 35px;
+  padding: 50px 0;
+}
+.csoon .content-wrap h4 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.csoon .content-wrap p {
+  font-size: 13px;
+}
+.csoon .content-wrap h4, .csoon .content-wrap p {
+  color: #fff;
+}
+.csoon.home {
+  height: 100vh;
+}
+.csoon.home .navbar {
+  padding-top: 30px;
+}
+.csoon.home .navbar .navbar-brand img {
+  max-width: 180px;
+}
+.csoon.home .navbar .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.csoon.home .navbar .navbar-nav li a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 20px;
+}
+.csoon.home .navbar .navbar-nav li:last-child a {
+  padding-right: 0;
+}
+.csoon.home .content-wrap {
+  padding: 100px 0;
+}
+.csoon.home .content-wrap h4 {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.standard {
+  padding: 80px 0 40px;
+}
+.standard .text-wrap {
+  position: relative;
+  height: 100%;
+}
+.standard .text-wrap h3 {
+  font-size: 30px;
+  font-family: "cyrenereg";
+  color: #caac92;
+  padding-bottom: 15px;
+}
+.standard .text-wrap p {
+  font-size: 16px;
+}
+.standard .text-wrap ul {
+  list-style: none;
+  padding-left: 15px;
+}
+.standard .text-wrap ul li::before {
+  content: "\2022";
+  color: #c1a58f;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.standard .text-wrap .btn {
+  margin-top: 300px;
+}
+.standard .img-wrap figcaption {
+  text-align: right;
+  color: #c1a58f;
+  padding-top: 10px;
+}
+.standard.cont {
+  background-color: #e9dcd2;
+}
+.standard.cont .text-wrap {
+  padding-left: 20px;
+  position: relative;
+  height: 100%;
+}
+.standard.cont .text-wrap h3 {
+  color: #34302b;
+}
+.standard.cont .text-wrap .btn {
+  margin-top: 50px;
+}
+.standard.cont .img-wrap figcaption {
+  color: #34302b;
+}
+
+.cta {
+  background-color: #caac92;
+  color: #fff;
+  padding: 20px 0;
+}
+.cta h5 {
+  text-transform: uppercase;
+  font-size: 23px;
+}
+.cta a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar-brand {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #00BFA6;
+}
+.header nav .navbar-nav {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.header nav .navbar-nav li a {
+  color: #00BFA6;
+  text-decoration: none;
+}
+.header nav .navbar-nav li a:hover {
+  color: #000000;
+}
+
+.footer {
+  background-color: #34302b;
+  color: #fff;
+  padding: 80px 0 30px;
+}
+.footer .register-wrap h4 {
+  font-family: "futurabook";
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.footer .register-wrap .form-wrap input,
+.footer .register-wrap .form-wrap select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  border-radius: 0;
+  padding-left: 0;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.footer .register-wrap .form-wrap input::placeholder,
+.footer .register-wrap .form-wrap select::placeholder {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.footer .register-wrap .form-wrap input {
+  padding-left: 4px;
+}
+.footer .register-wrap .form-wrap select option {
+  color: #34302b;
+  padding-left: 0;
+}
+.footer .register-wrap .form-wrap .btn-wrap {
+  text-align: right;
+  margin-top: 40px;
+}
+.footer .appointment h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+.footer .appointment p {
+  font-size: 13px;
+  margin-bottom: 0;
+  padding: 8px 0;
+}
+.footer .address {
+  margin-top: 40px;
+}
+.footer .address p {
+  margin-bottom: 0;
+  line-height: 25px;
+}
+.footer .brought {
+  margin-top: 152px;
+}
+.footer .brought h6 {
+  font-family: "futuralite";
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.footer .brought figure {
+  font-family: "futuralite";
+  font-size: 14px;
+}
+.footer .brought figure figcaption {
+  padding-top: 5px;
+}
+.footer .brought figure.icons1 img {
+  max-width: 100px;
+}
+.footer .brought figure.icons2 img {
+  max-width: 130px;
+}
+.footer .brought figure.icons3 img {
+  max-width: 90px;
+}
+.footer .brought a {
+  font-family: "futuralite";
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer .disclaimer {
+  padding-top: 30px;
+}
+.footer .disclaimer p {
+  font-size: 11px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .csoon {
+    background-size: cover;
+  }
+  .csoon.home {
+    height: 70vh;
+  }
+  .csoon.home .content-wrap h4 {
+    padding-bottom: 80px;
+  }
+  .csoon.home .navbar .navbar-nav {
+    background-color: #caac92;
+  }
+  .csoon.home .navbar .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .csoon.home .navbar .navbar-nav li:last-child a {
+    padding-right: 20px;
+    display: block;
+  }
+
+  .standard .text-wrap .btn {
+    margin-top: 20px;
+  }
+
+  .footer .brought {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .csoon {
+    background-size: auto;
+  }
+  .csoon.home {
+    height: auto;
+  }
+  .csoon.home .navbar .navbar-nav {
+    background-color: #caac92;
+  }
+  .csoon.home .navbar .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .csoon.home .navbar .navbar-nav li:last-child a {
+    padding-right: 20px;
+    display: block;
+  }
+
+  .standard .text-wrap .btn {
+    margin: 30px 0 50px;
+  }
+
+  .footer .appointment {
+    margin-top: 50px;
+  }
+  .footer .brought {
+    margin-top: 60px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

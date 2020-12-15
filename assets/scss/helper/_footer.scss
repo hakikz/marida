@@ -1,0 +1,121 @@
+.footer{
+   background-color: $col-foot2;
+   color: $white;
+   padding: 80px 0 30px;
+
+   .register-wrap{
+       h4{
+           font-family: $fubook;
+           font-size: $fs + 15px;
+           padding-bottom: 30px;
+       }
+
+       .form-wrap{
+           input,
+           select{
+               background-color: transparent;
+               border: none;
+               border-bottom: 1px solid #f2f2f2;
+               border-radius: 0;
+               padding-left: 0;
+               color: $white;
+               font-size: $fs - 3px;
+               text-transform: uppercase;
+
+               &::placeholder{
+                   color: $white;
+                   font-size: $fs - 3px;
+                   text-transform: uppercase;
+               }
+           }
+           
+           input{
+               padding-left: 4px;
+           }
+
+           select{
+               option{
+                   color: $col-foot2;
+                   padding-left: 0;
+               }
+           }
+
+           .btn-wrap{
+               text-align: right;
+               margin-top: 40px;
+           }
+           
+       }
+   }
+
+   .appointment{
+       h5{
+        font-size: $fs + 5px;
+        margin-bottom: 0;
+        padding-bottom: 8px;
+       }
+       p{
+        font-size: $fs - 2px;
+        margin-bottom: 0;
+        padding: 8px 0;
+       }
+   }
+
+   .address{
+       margin-top: 40px;
+       p{
+           margin-bottom: 0;
+           line-height: 25px;
+       }
+   }
+
+   .brought{
+       margin-top: 152px;
+       h6{
+           font-family: $fulite;
+           font-size: $fs - 1px;
+           padding-bottom: 15px;
+       }
+
+       figure{
+           font-family: $fulite;
+           font-size: $fs - 1px;
+
+           figcaption{
+               padding-top: 5px;
+           }
+
+           &.icons1{
+               img{
+                   max-width: 100px;
+               }
+           }
+           &.icons2{
+               img{
+                   max-width: 130px;
+               }
+           }
+           &.icons3{
+               img{
+                   max-width: 90px;
+               }
+           }
+       }
+
+       a{
+           font-family: $fulite;
+           text-transform: uppercase;
+           color: $white;
+           text-decoration: none;
+           font-size: $fs - 1px;
+       }
+   }
+
+   .disclaimer{
+       padding-top: 30px;
+       p{
+           font-size: $fs - 4px;
+           text-align: justify;
+       }
+   }
+}

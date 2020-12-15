@@ -1,0 +1,50 @@
+body{
+    font-family: $avlite;
+    overflow-x: hidden;
+}
+
+.break{
+    display: block;
+    width: 100%;
+}
+
+.overlay{
+    background-color: $col-foot2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.45;
+}
+
+.cta-wrap{
+    text-align: center;
+}
+
+.btn-doi{
+    background-color: $col-btn;
+    color: $white;
+    border-radius: 0;
+    padding: 7px 30px;
+
+    &.white{
+        background-color: $white;
+        color: $col-foot2;
+    }
+}
+
+.scrollToTop{
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    position:fixed;
+    bottom:75px;
+    right:40px;
+    display:none;
+
+    &:hover{
+        text-decoration:none;
+    }
+}

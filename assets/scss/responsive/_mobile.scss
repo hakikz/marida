@@ -1,0 +1,43 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .csoon {
+        background-size: auto;
+        &.home{
+            height: auto;
+            .navbar {
+                .navbar-nav{
+                    background-color: $col-foot1;
+                    li{
+                        a{
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                        }
+                        &:last-child{
+                            a{
+                                padding-right: 20px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .standard{
+        .text-wrap {
+            .btn{
+                margin: 30px 0 50px;
+            }
+        }
+    }
+
+    .footer{
+        .appointment{
+            margin-top: 50px;
+        }
+
+        .brought{
+            margin-top: 60px;
+        }
+    }
+}
