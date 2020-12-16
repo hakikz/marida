@@ -377,6 +377,8 @@ body {
   .header .navbar .navbar-nav li a {
     padding-top: 10px;
     padding-bottom: 10px;
+    display: block;
+    text-align: center;
   }
   .header .navbar .navbar-nav li:last-child a {
     padding-right: 20px;
