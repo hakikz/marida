@@ -75,6 +75,10 @@ body {
   text-decoration: none;
 }
 
+#carouselHero .carousel-control-next, #carouselHero .carousel-control-prev {
+  width: 7%;
+}
+
 .csoon {
   position: relative;
   background-size: 100% 100%;
@@ -128,7 +132,7 @@ body {
   padding-right: 0;
 }
 .csoon.home .content-wrap {
-  padding: 100px 0;
+  padding: 190px 0;
 }
 .csoon.home .content-wrap h4 {
   padding-top: 50px;
@@ -203,23 +207,29 @@ body {
   text-decoration: none;
 }
 
-.header .navbar-brand {
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-  color: #00BFA6;
+.header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
 }
-.header nav .navbar-nav {
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
+.header .navbar {
+  padding-top: 30px;
 }
-.header nav .navbar-nav li a {
-  color: #00BFA6;
-  text-decoration: none;
+.header .navbar .navbar-brand img {
+  max-width: 180px;
 }
-.header nav .navbar-nav li a:hover {
-  color: #000000;
+.header .navbar .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header .navbar .navbar-nav li a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 20px;
+}
+.header .navbar .navbar-nav li:last-child a {
+  padding-right: 0;
 }
 
 .footer {
@@ -317,6 +327,20 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header .navbar .navbar-nav {
+    background-color: #caac92;
+  }
+  .header .navbar .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  .header .navbar .navbar-nav li:last-child a {
+    padding-right: 20px;
+    display: block;
+  }
+
   .csoon {
     background-size: cover;
   }
@@ -347,11 +371,20 @@ body {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .header .navbar .navbar-nav {
+    background-color: #caac92;
+  }
+  .header .navbar .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header .navbar .navbar-nav li:last-child a {
+    padding-right: 20px;
+    display: block;
+  }
+
   .csoon {
     background-size: auto;
-  }
-  .csoon.home {
-    height: auto;
   }
   .csoon.home .navbar .navbar-nav {
     background-color: #caac92;

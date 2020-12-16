@@ -1,22 +1,29 @@
 .header{
-    .navbar-brand{
-        font-family: $nun;
-        font-weight: $bold;
-        font-size: $fs + 30px;
-        color: $col-green;
-    }
-    nav{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+
+    .navbar{
+        padding-top: 30px;
+        .navbar-brand{
+            img{
+                max-width: 180px;
+            }
+        }
         .navbar-nav{
-            font-family: $nun;
-            font-weight: $bold;
-            font-size: $fs + 30px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
             li{
                 a{
-                    color: $col-green;
-                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $white;
+                    padding: 0 20px;
+                }
 
-                    &:hover{
-                        color: $col-black;
+                &:last-child{
+                    a{
+                        padding-right: 0;
                     }
                 }
             }

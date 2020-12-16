@@ -48,3 +48,10 @@ body{
         text-decoration:none;
     }
 }
+
+
+#carouselHero{
+    .carousel-control-next, .carousel-control-prev {
+        width: 7%;
+    }
+}
